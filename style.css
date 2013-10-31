@@ -1,0 +1,358 @@
+
+/* this resets all margin and padding settings in the browsers */
+
+* {
+margin:0 auto; /* this is what centers the content in the page */	
+font-size: 100%; /* sets to the browser's default font size */
+}
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}									
+
+/* Tell the browser to render HTML 5 elements as block elements */  
+
+article, aside, figure, footer, header, hgroup, nav, section {display: block;}
+
+/* Responsive images and other embedded objects */
+
+img,
+object,
+embed {max-width: 100%;}
+
+a:link {color:#ADB0C5; text-decoration:none;} 
+a:visited {color:#ADB0C5; text-decoration:underline;} 
+a:hover {color:#ADB0C5; text-decoration:underline;}  
+a:active {color:#ADB0C5; text-decoration:none;} 
+
+body {
+	background-image:url('http://www.meganelainepauly.com/images/paper_fibers.png');
+	background-color:#f2f4f3;
+	font-family: 'Quicksand', verdana, sans-serif;
+	font-weight:lighter;
+} 
+
+#main_page {
+	background-color:#ffffff;
+	width: 980px;
+	height: 1%; 
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 40px; 
+	padding: 20px;
+	-webkit-box-shadow: 2px 2px 2px 2px #6b6b6b;
+	box-shadow: 2px 2px 2px 2px #6b6b6b; 
+}
+
+header img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*NAVBAR*/
+nav {
+	font-family: 'Quicksand', sans-serif;
+	padding-bottom: 5%;
+	padding-left: 1%;
+}
+
+nav ul {
+	text-align: center;
+	padding-left: 2%;
+}
+
+nav li {
+	display: inline;
+	padding-right: 2%;
+}
+
+#main_container {
+	width: 980px;
+}
+
+.work {
+	font-family: 'Quicksand', sans-serif;
+	font-size: .95em;
+	padding-left: 3%;
+}
+
+article {
+	padding-bottom: 5%;
+	padding-left: 4%;
+}
+
+.headline {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.15em;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	float:left;
+	width: 70%;
+}
+
+.story_summary {
+	float: left;
+	width: 75%;
+	padding-bottom: 2%;
+}
+
+.teaser {
+	float: left;
+	padding-top: 1%;
+}
+
+.summary {
+	padding-left: 2%;
+	padding-right: 3%;
+	clear: both;
+	font-size: .85em;
+}
+
+.story_footer {
+	clear: both;
+	padding-top: 1%;
+	font-size: .75em;
+	font-style: italic;
+	color: #ADB0C5;
+}
+
+.next-posts {
+	font-size: .75em;
+	font-style: italic;
+}
+
+.previous-posts {
+	font-size: .75em;
+	font-style: italic;
+}
+
+hr {
+	clear: both;
+}
+
+.invisible {
+	opacity: 0;
+}
+
+footer {
+	padding-top: 1%;
+	font-size: .70em;
+}
+
+/*POSTS*/
+
+.entry-title {
+	font-size: 1.30em;
+	font-family: 'Quicksand', verdana, sans-serif;
+	font-weight:lighter;
+	color: #ADB0C5;
+	margin-bottom: 2%;
+}
+
+.entry-content {
+	font-size: .85em;
+	line-height: 185%;
+	font-family: 'Quicksand', verdana, sans-serif;
+	font-weight:lighter;
+	padding-right: 2%;
+}
+
+.entry-content p {
+	margin-bottom: 1.5%;
+}
+
+.alignright {
+	float:right;
+	}
+	
+.alignleft {
+	float:left;
+}
+
+.meta {
+	font-size: .75em;
+	font-style: italic;
+	color: #ADB0C5;
+	clear:both;
+}
+
+.wp-caption-text {
+	font-size: .75em;
+	line-height: normal;
+	background-color: #f3f4f7;
+	padding-bottom: .5%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+}
+
+iframe {
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+	
+}
+		
+	
+
+/*PAGES*/
+
+
+ul {
+	list-style-type: none;
+}
+
+#pictures {
+	float: left;
+	position: relative;
+	padding-left: 2%;
+}
+
+.about_pictures {
+	padding-bottom: 1%;
+	padding-top: 2%;
+}
+
+#about {
+	float: left;
+	position: relative;
+	padding-left: 3%;
+	font-size: .85em;
+	padding-bottom: 4%;
+	width: 400px;
+	padding-top: 3%;
+	line-height: 200%;
+	height: 1010px;
+}
+
+.contact {
+	text-align:center;
+	position: relative;
+	font-size: .85em;
+	line-height: 200%;
+	padding-right:4%;
+	
+}
+	
+#look {
+	padding-top: 2%;
+}
+
+/*404*/
+
+#404title {
+	text-align:center;
+	position: relative;
+	font-size: 1.50em;
+	font-family: 'Quicksand', verdana, sans-serif;
+	font-weight:lighter;
+	color: #ADB0C5;
+	
+}
+
+/*COMMENTS*/
+
+#comments {
+	position: relative;
+	font-size: 1.05em;
+	font-family: 'Quicksand', verdana, sans-serif;
+	font-weight:lighter;
+	color: #ADB0C5;
+	margin-left:3%;
+}
+
+.commentlist {
+	margin-left: 5%;
+	float: left;
+	position: relative;
+	padding-left: 3%;
+	font-size: .85em;
+	padding-bottom: 4%;
+	padding-top: 2%;
+	line-height: 200%;
+}
+
+#respond {
+	clear: both;
+	margin-left: 7%;
+}
+
+#respondtitle {
+	font-size: 1.25em;
+	font-family: 'Quicksand', verdana, sans-serif;
+	font-weight:lighter;
+	color: #ADB0C5;
+}
+
+#respond p {
+	margin-left: 5%;
+	float: left;
+	position: relative;
+	font-size: .85em;
+	line-height: 200%;
+}
+
+#comment {
+	margin-top: 4%;
+	margin-left: -25.5%;
+	margin-bottom: 2%;
+}
+
+#submit {
+	background-color: #ADB0C5; 
+	font-size: .80em;
+    padding: 10px; 
+	font-weight: bold;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-left: 5%;
+	margin-bottom: 3%;
+}
+
+/*CATEGORY*/
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.15em;
+	padding-top: 2%;
+	padding-bottom: .5%;
+	float:left;
+	width: 70%;
+}
+
+.category_nav {
+	font-family: 'Quicksand', sans-serif;
+	padding-bottom: 5%;
+	padding-left: 1%;
+	font-size: .85em;
+}
+
+.category_nav ul {
+	text-align: center;
+	padding-left: 2%;
+}
+
+.category_nav li {
+	display: inline;
+	padding-right: 2%;
+}
+
+/*SUNFLOWER*/
+
+#pdf {
+	color: #ADB0C5;
+	font-style:italic;
+	font-size:.75em;
+}
+	
+	
+
+
+
+
+
+
